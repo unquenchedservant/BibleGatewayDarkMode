@@ -13,6 +13,7 @@
 		"browser_style":true
 	},
 	"version" : "0.3",
+	"permissions": ["storage", "tabs"],
 	"icons": { "16":"icon.png", "48":"icon.png", "128":"icon.png"},
 	"content_scripts": [{
 		"css": ["styles.css"],
