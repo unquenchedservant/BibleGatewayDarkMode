@@ -1,0 +1,11 @@
+{
+	"name": "Bible Gateway Darkmode",
+	"version" : "0.3",
+	"icons": { "16":"icon.png", "48":"icon.png", "128":"icon.png"},
+	"description": "Creates a dark mode for biblegateway.com",
+	"content_scripts": [{
+		"css": ["styles.css"],
+		"matches": ["https://www.biblegateway.com/*"]
+	}],
+	"manifest_version": 2
+}
