@@ -8,6 +8,10 @@
 	"description": "Creates a dark mode for biblegateway.com",
 	"manifest_version": 2,
 	"name": "Bible Gateway Darkmode",
+	"options_ui":{
+		"page":"options.html",
+		"browser_style":true
+	},
 	"version" : "0.3",
 	"icons": { "16":"icon.png", "48":"icon.png", "128":"icon.png"},
 	"content_scripts": [{
