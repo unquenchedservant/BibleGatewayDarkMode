@@ -12,14 +12,8 @@
 		"page":"options.html",
 		"browser_style":true
 	},
-	"version" : "0.3",
+	"version" : "0.5",
 	"permissions": ["storage", "tabs"],
-	"browser_specific_settings":{
-		"gecko":{
-			"id":"biblegatewaydarkmode@unquenched.tech",
-			"strict_min_version": "57.0a1"
-		}
-	},
 	"icons": { "16":"icon.png", "48":"icon.png", "128":"icon.png"},
 	"content_scripts": [{
 		"js": ["darkmode.js"],
