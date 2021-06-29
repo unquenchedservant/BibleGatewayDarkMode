@@ -1,0 +1,12 @@
+{
+    "name": "biblegatewaydarkmode@unquenched.tech",
+    "description":"ignored",
+    "type":"storage",
+    "data":
+    {
+        "main": "#121212",
+        "accent": "#383838",
+        "text": "#9cb9d3",
+        "woj": "#b36c38"
+    }
+}
